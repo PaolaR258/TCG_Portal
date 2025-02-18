@@ -1,0 +1,742 @@
+/*FOR INDEX PAGE*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0, 0, 0, 0.5)50%), url(url.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 1200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: whitesmoke;
+    font-size: 35px;
+    font-family: monospace;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: monospace;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: aqua;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 120px;
+}
+
+.srch{
+    font-family: monospace;
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px soild whitesmoke;
+    margin-top: 13px;
+    color: whitesmoke;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: navy;
+    border: 2px solid;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: whitesmoke;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: monospace;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: monospace;
+    font-size: 35px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: whitesmoke;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background: aqua;
+}
+
+.content span{
+    color: aqua;
+    font-size: 65px;
+}
+
+.form{
+    width: 250px;
+    height: 300px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: monospace;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 22px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid aqua;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: monospace;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: monospace;
+}
+
+.btn2{
+    width: 240px;
+    height: 40px;
+    background-color: whitesmoke;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: aqua;
+    transition: 0.4s ease;
+}
+
+.btn2:hover{
+    background-color: aqua;
+    color: black;
+}
+
+.btn2 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.form .link{
+    font-family: monospace;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .link a{
+    text-decoration: none;
+    color: aqua;
+
+}
+/*FOR HOME.HTML*/
+.home{
+    min-height: 100vh;
+    padding: 50px;
+    text-align: center;
+}
+
+.cardToday{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cardToday h2{
+    font-size: 36px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: whitesmoke;
+    font-family: monospace;
+}
+.card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+.card-ofDay .scar{
+    width: 400px;
+    height: 500px;
+}
+
+.cardInfo{
+    text-align: left;
+}
+
+.cardInfo h3{
+    font-size: 11px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+    font-family: monospace;
+}
+
+.cardInfo p{
+    font-size: 11px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+    font-family: monospace;
+}
+
+.cardInfo h3, p{
+    margin: 0;
+}
+
+/*FOR ABOUT.HTML*/
+.about{
+    min-height: 100vh;
+    padding: 50px;
+    text-align: center;
+}
+
+.aboutUs{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.aboutUs h2{
+    font-size: 36px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: whitesmoke;
+    font-family: monospace;
+}
+
+.aboutFORM p{
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: monospace;
+
+}
+
+/*FOR CARDS.HTML*/
+.TCGcard{
+    min-height: 100vh;
+    padding: 50px;
+}
+
+.TCG-container{
+    max-width: 800vh;
+    margin: 0;
+}
+
+.TCG-container h2{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: whitesmoke;
+    font-family: monospace;
+}
+
+.TCG-image .batzz{
+    width: 200px;
+    height: 300px;
+}
+
+.TCG-image .pikachu{
+    width: 200px;
+    height: 300px;
+}
+
+.TCG-image .whiteDragon{
+    width: 200px;
+    height: 300px;
+}
+
+.TCG-image .stitch{
+    width: 200px;
+    height: 300px;
+}
+
+.TCG-image .nether{
+    width: 200px;
+    height: 300px;
+}
+
+/* FOR CONTACT.HTML*/
+.contact{
+    min-height: 100vh;
+    padding: 50px;
+    text-align: center;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container h2{
+    font-size: 36px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: whitesmoke;
+    font-family: monospace;
+}
+
+.contact-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+.contact-form{
+    text-align: left;
+}
+
+.contact-form h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+    font-family: monospace;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+.form-group ::placeholder{
+    color: black;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: whitesmoke;
+    color: black;
+}
+
+input:focus,
+textarea:focus{
+    outline: none;
+    box-shadow: 0 0 8px aqua;
+}
+
+button{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #4caf50;
+    color: #fff;
+    font-family: monospace;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: aqua;
+}
+
+.contact-info{
+    text-align: left;
+}
+
+.contact-info h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+    font-family: monospace;
+}
+
+.contact-info p{
+    margin-bottom: 10px;
+    color: whitesmoke;
+    font-family: monospace;
+}
+
+/*FOR BATZZ.HTML*/
+.batzz-home{
+    min-height: 100vh;
+    padding: 50px;
+    text-align: center;
+}
+
+.batzz-card1{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.batzz-card1 h2{
+    font-size: 36px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: whitesmoke;
+    font-family: monospace;
+}
+.batzzcard-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+.batzz-CardList .batzzCard{
+    width: 400px;
+    height: 500px;
+}
+
+.batzz-cardInfo{
+    text-align: left;
+}
+
+.batzz-cardInfo h3{
+    font-size: 11px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+    font-family: monospace;
+}
+
+.batzz-cardInfo p{
+    font-size: 11px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+    font-family: monospace;
+}
+
+.batzz-cardInfo h3, p{
+    margin: 0;
+}
+
+.batzzButton-wrapper{
+    height: 30px;
+    min-width: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: whitesmoke;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.batzzButton-wrapper span{
+    width: 90%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 200;
+    cursor: pointer;
+}
+
+.batzzButton-wrapper span.num{
+    font-size: 30px;
+    border-right: 2px solid rgba(0,0,0,0.2);
+    border-left: 2px solid rgba(0,0,0,0.2);
+    pointer-events: none;
+}
+
+/*FOR PIKACHU.HTML*/
+.pikachu-home{
+    min-height: 100vh;
+    padding: 50px;
+    text-align: center;
+}
+
+.pikachu-card2{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.pikachu-card2 h2{
+    font-size: 36px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: whitesmoke;
+    font-family: monospace;
+}
+.pikachucard-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+.pikachu-CardList .pikachuCard{
+    width: 400px;
+    height: 500px;
+}
+
+.pikachu-cardInfo{
+    text-align: left;
+}
+
+.pikachu-cardInfo h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+    font-family: monospace;
+}
+
+.pikachu-cardInfo p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+    font-family: monospace;
+}
+
+.pikachu-cardInfo h3, p{
+    margin: 0;
+}
+
+/*FOR BLUEEYESDRAGON.HTML*/
+.whiteDragon-home{
+    min-height: 100vh;
+    padding: 50px;
+    text-align: center;
+}
+
+.whiteDragon-card3{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.whiteDragon-card3 h2{
+    font-size: 36px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: whitesmoke;
+    font-family: monospace;
+}
+.whiteDragoncard-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+.whiteDragon-CardList .whiteDragonCard{
+    width: 400px;
+    height: 500px;
+}
+
+.whiteDragon-cardInfo{
+    text-align: left;
+}
+
+.whiteDragon-cardInfo h3{
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+    font-family: monospace;
+}
+
+.whiteDragon-cardInfo p{
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+    font-family: monospace;
+}
+
+.whiteDragon-cardInfo h3, p{
+    margin: 0;
+}
+
+/*FOR STITCH.HTML*/
+.stitch-home{
+    min-height: 100vh;
+    padding: 50px;
+    text-align: center;
+}
+
+.stitch-card4{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.stitch-card4 h2{
+    font-size: 36px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: whitesmoke;
+    font-family: monospace;
+}
+.stitchcard-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+.stitch-CardList .stitchCard{
+    width: 400px;
+    height: 500px;
+}
+
+.stitch-cardInfo{
+    text-align: left;
+}
+
+.stitch-cardInfo h3{
+    font-size: 11px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+    font-family: monospace;
+}
+
+.stitch-cardInfo p{
+    font-size: 11px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+    font-family: monospace;
+}
+
+.stitch-cardInfo h3, p{
+    margin: 0;
+}
+
+/*FOR NETHERGOYF.HTML*/
+.nether-home{
+    min-height: 100vh;
+    padding: 50px;
+    text-align: center;
+}
+
+.nether-card5{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.nether-card5 h2{
+    font-size: 36px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: whitesmoke;
+    font-family: monospace;
+}
+.nethercard-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+}
+
+.nether-CardList .netherCard{
+    width: 400px;
+    height: 500px;
+}
+
+.nether-cardInfo{
+    text-align: left;
+}
+
+.nether-cardInfo h3{
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+    font-family: monospace;
+}
+
+.nether-cardInfo p{
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+    font-family: monospace;
+}
+
+.nether-cardInfo h3, p{
+    margin: 0;
+}
